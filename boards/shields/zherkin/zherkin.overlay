@@ -12,11 +12,11 @@
 
    chosen {
      zmk,kscan = &kscan;
-     zmk,matrix_transform = &m66;
+     zmk,matrix_transform = &zherkin;
      zephyr,console = &cdc_acm_uart;
    };
 
-      m66: m66_0 {
+      zherkin: zherkin_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
         rows = <5>;
