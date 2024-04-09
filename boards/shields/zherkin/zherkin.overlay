@@ -6,9 +6,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-   model = "mlego m66, rev4";
+   model = "zherkin";
 
-   //compatible = "nice-nano-v2";
+   compatible = "nice-nano-v2";
 
    chosen {
      zmk,kscan = &kscan;
