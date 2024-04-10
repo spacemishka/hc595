@@ -16,6 +16,9 @@
 #define RSE 2
 #define ADJ 3
 
+&led_strip {
+    chain-length = <16>;
+};
 / {
 
     conditional_layers {
